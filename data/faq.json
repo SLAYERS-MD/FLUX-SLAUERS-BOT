@@ -1,0 +1,16 @@
++{
++  "items": [
++    {
++      "question": "¿Cómo me uno?",
++      "answer": "Escribe reclutar y completa el formulario."
++    },
++    {
++      "question": "¿Cuánto tarda la respuesta?",
++      "answer": "Normalmente 24-48h."
++    },
++    {
++      "question": "¿Hay pruebas?",
++      "answer": "Sí, solicita entrenos para coordinar."
++    }
++  ]
++}
