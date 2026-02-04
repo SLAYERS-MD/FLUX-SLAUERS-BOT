@@ -1,0 +1,15 @@
+{
+  "name": "flux-slauers-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot de reclutamiento y soporte para WhatsApp",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.24.1"
+  }
+}
