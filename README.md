@@ -2,15 +2,11 @@
 
 Bot de WhatsApp para reclutar jugadores y brindar soporte rápido. Funciona en **Termux** usando WhatsApp Web (QR o código de emparejamiento).
 
----
-
 ## ✅ Requisitos
 
-* Termux instalado en Android
-* Node.js 18+
-* Cuenta de WhatsApp activa en tu teléfono
-
----
+- Termux instalado en Android.
+- Node.js 18+.
+- Cuenta de WhatsApp activa en tu teléfono.
 
 ## 🚀 Instalación en Termux
 
@@ -19,8 +15,6 @@ pkg update -y
 pkg install -y nodejs git
 npm install
 ```
-
----
 
 ## 🔧 Configuración
 
@@ -50,11 +44,7 @@ MIN_KDR=1.0
 WHATSAPP_PHONE_NUMBER=+11111111111
 ```
 
-> `WHATSAPP_PHONE_NUMBER` es opcional.
-> Si lo defines, el bot intentará generar un **código de emparejamiento** (cuando WhatsApp Web lo permita).
-> Si no, se usará **QR**.
-
----
+> `WHATSAPP_PHONE_NUMBER` es opcional. Si lo defines, el bot intentará generar un código de emparejamiento (cuando WhatsApp Web lo permita). Si no, usa el QR.
 
 ## ▶️ Ejecutar
 
@@ -62,64 +52,29 @@ WHATSAPP_PHONE_NUMBER=+11111111111
 npm start
 ```
 
-Al iniciar, verás un **QR en la terminal**. Escanéalo desde WhatsApp:
+Al iniciar, verás un QR en la terminal. Escanéalo desde WhatsApp:
 
 ```
 WhatsApp > Dispositivos vinculados > Vincular dispositivo
 ```
 
----
-
 ## ✨ Comandos (por texto)
 
-Los jugadores pueden escribir cualquiera de estos comandos al bot:
+Escribe cualquiera de estos mensajes:
 
-### 📌 Información General
+- `menu`
+- `reclutar` o `1`
+- `soporte` o `2`
+- `faq` o `3`
+- `reglas` o `4`
+- `entrenos` o `5`
+- `estado` o `6`
+- `staff` o `7`
 
-* `hola` → Mensaje de bienvenida
-* `info` → Información del clan
-* `horarios` → Horarios del staff
-* `región` → Región y plataforma del servidor
+## 🧩 Personalización rápida
 
-### 🧾 Reclutamiento
-
-* `reclutar` → Enlace al formulario de reclutamiento
-* `pruebas` → Información y link de tryouts
-* `requisitos` → Requisitos mínimos para postular
-* `edad` → Edad mínima
-* `nivel` → Nivel mínimo requerido
-* `kdr` → K/D mínimo requerido
-
-### 📜 Normas
-
-* `reglas` → Reglamento oficial del clan
-* `conducta` → Normas de comportamiento
-
-### 💬 Soporte
-
-* `soporte` → Contacto directo con staff
-* `staff` → Horarios y disponibilidad
-* `ayuda` → Lista de comandos disponibles
-
-### 🌐 Comunidad
-
-* `discord` → Invitación al servidor oficial
-* `redes` → Redes sociales del clan (si aplica)
+Puedes ajustar textos, requisitos, menú, reglas y entrenamientos en `config.js` y `bot.js`.
 
 ---
 
-## 🛡️ Notas Importantes
-
-* El bot **no guarda mensajes privados**.
-* Funciona solo mientras Termux esté activo.
-* Recomendado usar un **número exclusivo** para el bot.
-* Compatible con **clanes esports y ligas competitivas**.
-
----
-
-## 🏆 Uso recomendado
-
-✔ Reclutamiento automático
-✔ Filtro inicial de jugadores
-✔ Respuestas rápidas 24/7
-✔ Imagen profesional para FLUX SLAUERS
+**Nota:** El bot guarda la sesión localmente para no escanear el QR cada vez.
