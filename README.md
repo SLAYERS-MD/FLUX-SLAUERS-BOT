@@ -1,10 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/README.md b/README.md
-new file mode 100644
-index 0000000000000000000000000000000000000000..ef5e20d1e374439deff918eeae7acd9a5c973731
---- /dev/null
-+++ b/README.md
-@@ -0,0 +1,58 @@
 +# FLUX SLAUERS BOT (Reclutamiento y Soporte)
 +
 +Bot de Telegram pensado para reclutar jugadores y brindar soporte rápido. Diseñado para ejecutarse en **Termux** con Python.
@@ -63,6 +56,3 @@ index 0000000000000000000000000000000000000000..ef5e20d1e374439deff918eeae7acd9a
 +---
 +
 +**Nota:** Este bot está listo para crecer con más comandos o integración con bases de datos.
- 
-EOF
-)
