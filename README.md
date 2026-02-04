@@ -124,16 +124,7 @@ Los jugadores pueden escribir cualquiera de estos comandos al bot:
 ✔ Respuestas rápidas 24/7
 ✔ Imagen profesional para FLUX SLAUERS
 
----
 
-Si quieres, en el próximo mensaje puedo:
-
-* 🔥 Pasarte el **README ultra PRO**
-* 🤖 Crear la **lógica del bot (Node.js / Baileys)**
-* 📲 Adaptarlo para **WhatsApp Business**
-* 🧠 Agregar **respuestas automáticas por IA**
-
-Tú mandas 🚀
 +TRYOUTS_URL=https://tu-formulario.com/pruebas
 +RULES_URL=https://tu-reglamento.com
 +DISCORD_URL=https://discord.gg/tu-invitacion
